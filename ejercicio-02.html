@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <style>
+        .square {
+            width: 100%;
+            height: 150px;
+            cursor: pointer;
+        }
+        .red {
+            background-color: #e43e3e !important;
+        }
+        .orange {
+            background-color: #dd6c20 !important;
+        }
+        .yellow {
+            background-color: #f9f089 !important;
+        }
+        .green {
+            background-color: #48bb78 !important;
+        }
+        .light-blue {
+            background-color: #81e5d9 !important;
+        }
+        .purple {
+            background-color: #d63f8c !important;
+        }
+        .result {
+            width: 100%;
+            height: 100%;
+            background-color: #fff;
+            border:2px solid #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row no-gutters">
+            <div class="col-2">
+                <div class="square red" data-color="red"></div>
+                <div class="square orange" data-color="orange"></div>
+                <div class="square yellow" data-color="yellow"></div>
+                <div class="square green" data-color="green"></div>
+                <div class="square light-blue" data-color="light-blue"></div>
+                <div class="square purple" data-color="purple"></div>
+            </div>
+            <div class="col-10">
+                <div class="result"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="ejercicio-02.js"></script>
+</body>
+</html>
